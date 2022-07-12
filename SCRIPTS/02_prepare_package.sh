@@ -145,7 +145,7 @@ CONFIG_CPU_FREQ_GOV_ONDEMAND=y
 cp -rf ../PATCH/LRNG/* ./target/linux/generic/hack-5.10/
 # ImmortalWrt Uboot TMP Fix
 #wget -qO- https://github.com/immortalwrt/immortalwrt/commit/433c93e.patch | patch -REp1
-wget -qO- https://github.com/coolsnowwolf/lede/commit/0104258.patch | patch -REtp1
+#wget -qO- https://github.com/coolsnowwolf/lede/commit/0104258.patch | patch -REtp1
 # R4S超频到 2.2/1.8 GHz
 #rm -rf ./target/linux/rockchip/patches-5.4/992-rockchip-rk3399-overclock-to-2.2-1.8-GHz-for-NanoPi4.patch
 #cp -f ../PATCH/target_r4s/991-rockchip-rk3399-overclock-to-2.2-1.8-GHz-for-NanoPi4.patch ./target/linux/rockchip/patches-5.4/991-rockchip-rk3399-overclock-to-2.2-1.8-GHz-for-NanoPi4.patch
