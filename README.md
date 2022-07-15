@@ -37,7 +37,7 @@
 
 ### 下载
 
-- 选择自己<b>设备对应的固件</b>，并[下载](https://github.com/QiuSimons/R2S-R4S-OpenWrt/releases)
+- 选择自己<b>设备对应的固件</b>，并[下载](https://github.com/SilveryX/YAOF/releases)
 
 ### 鸣谢
 
