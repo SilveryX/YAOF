@@ -7,6 +7,9 @@ on:
   watch:
     types: started
 
+env:
+  FILE_NAME: X86-64
+
 jobs:
   build:
     runs-on: ubuntu-20.04
@@ -120,10 +123,10 @@ jobs:
       id: create_release
       uses: ncipollo/release-action@main
       with:
-        name: OpenWRT-${{ env.latest_release }}
+        name: ${{ env.FILE_NAME }}-OpenWRT-${{ env.latest_release }}
         allowUpdates: true
         prerelease: true
-        tag: ${{ env.latest_release }}
+        tag: ${{ env.FILE_NAME }}
         commit: 22.03
         replacesArtifacts: true
         token: ${{ secrets.GITHUB_TOKEN }}
